@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/syoutoku_a"
+    android:stretchColumns="0,1">
+
+<TableRow
+        android:layout_span="2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_span="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="fill_vertical"
+        android:text="Select right files"
+        android:id="@+id/selectr_bt" />
+    <Button
+        android:layout_span="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="fill_vertical"
+        android:text="Select left files"
+        android:id="@+id/selectl_bt" />
+    </TableRow>
+
+<TableRow
+        android:layout_span="2"
+        android:id="@+id/gif_parent">
+
+</TableRow>
+
+<TableRow
+        android:layout_span="2"
+        android:paddingTop="80dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TableRow >
+    <ImageView
+        android:layout_span="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:background="@drawable/vol_r"
+		android:scaleType="fitCenter"
+        android:id="@+id/volimg_r"/>
+
+    <ImageView
+        android:layout_span="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:background="@drawable/vol_r"
+		android:scaleType="fitCenter"
+        android:id="@+id/volimg_l"/>
+	</TableRow>
+    </TableLayout>
+</TableRow>
+<TableRow
+        android:layout_span="2"
+        android:paddingTop="50dp">
+    <Button
+        android:layout_span="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:id="@+id/play_bt"
+        />
+    <Button
+        android:layout_span="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/stop_bt"
+        /></TableRow>
+
+<TableRow>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:id="@+id/list_bt"
+        /></TableRow>
+</TableLayout>
+</LinearLayout>
