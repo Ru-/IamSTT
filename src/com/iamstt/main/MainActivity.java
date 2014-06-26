@@ -22,7 +22,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TableRow;
 import android.widget.Toast;
-
+//TEST:変更後だよ
 public class MainActivity extends Activity {
 	private ArrayList<MediaPlayer> rPlayerList;
 	private ArrayList<MediaPlayer> lPlayerList;
